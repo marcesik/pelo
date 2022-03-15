@@ -1,0 +1,461 @@
+<html>
+<head>
+
+<style>
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 42px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+#wrapper {
+	border: 1px solid #000;
+	width: 1450px;
+	
+}
+
+#wrapper2 {
+	border: 1px solid #000;
+	width: 1450px;
+	
+}
+
+</style>
+<script>
+
+function leervalues ()
+    {
+
+resutit.value=localStorage.getItem("titvalue").toUpperCase();
+resutitdos.value=localStorage.getItem("titdosvalue").toUpperCase();
+resutitres.value=localStorage.getItem("titresvalue").toUpperCase();
+resutitcua.value=localStorage.getItem("titcuavalue").toUpperCase();
+resutitcin.value=localStorage.getItem("titcinvalue").toUpperCase();
+resutitseis.value=localStorage.getItem("titseisvalue").toUpperCase();
+resutitsie.value=localStorage.getItem("titsievalue").toUpperCase();
+resutitoch.value=localStorage.getItem("titochvalue").toUpperCase();
+resutitnue.value=localStorage.getItem("titnuevalue").toUpperCase();
+resutitdie.value=localStorage.getItem("titdievalue").toUpperCase();
+tit2.value=localStorage.getItem("titvalue2");
+titdos2.value=localStorage.getItem("titdosvalue2");
+titres2.value=localStorage.getItem("titresvalue2");
+titcua2.value=localStorage.getItem("titcuavalue2");
+titcin2.value=localStorage.getItem("titcinvalue2");
+titseis2.value=localStorage.getItem("titseisvalue2");
+titsie2.value=localStorage.getItem("titsievalue2");
+titoch2.value=localStorage.getItem("titochvalue2");
+titnue2.value=localStorage.getItem("titnuevalue2");
+titdie2.value=localStorage.getItem("titdievalue2");
+tit3.value=localStorage.getItem("titvalue3");
+titdos3.value=localStorage.getItem("titdosvalue3");
+titres3.value=localStorage.getItem("titresvalue3");
+titcua3.value=localStorage.getItem("titcuavalue3");
+titcin3.value=localStorage.getItem("titcinvalue3");
+titseis3.value=localStorage.getItem("titseisvalue3");
+titsie3.value=localStorage.getItem("titsievalue3");
+titoch3.value=localStorage.getItem("titochvalue3");
+titnue3.value=localStorage.getItem("titnuevalue3");
+titdie3.value=localStorage.getItem("titdievalue3");
+
+
+top.parent.focus();
+
+
+}
+
+
+</script>
+
+<script>
+
+   function passvalues ()
+    {
+
+
+
+      var titulo=document.getElementById("tit").value;
+      localStorage.setItem("titvalue",titulo);
+
+var titulodos=document.getElementById("titdos").value;
+      localStorage.setItem("titdosvalue",titulodos);
+var titulotres=document.getElementById("titres").value;
+      localStorage.setItem("titresvalue",titulotres);
+var titulocua=document.getElementById("titcua").value;
+      localStorage.setItem("titcuavalue",titulocua);
+var titulocin=document.getElementById("titcin").value;
+      localStorage.setItem("titcinvalue",titulocin);
+var tituloseis=document.getElementById("titseis").value;
+      localStorage.setItem("titseisvalue",tituloseis);
+var titulosie=document.getElementById("titsie").value;
+      localStorage.setItem("titsievalue",titulosie);
+var titulooch=document.getElementById("titoch").value;
+      localStorage.setItem("titochvalue",titulooch);
+var titulonue=document.getElementById("titnue").value;
+      localStorage.setItem("titnuevalue",titulonue);
+var titulodie=document.getElementById("titdie").value;
+      localStorage.setItem("titdievalue",titulodie);
+
+resutit.value=localStorage.getItem("titvalue").toUpperCase();
+resutitdos.value=localStorage.getItem("titdosvalue").toUpperCase();
+resutitres.value=localStorage.getItem("titresvalue").toUpperCase();
+resutitcua.value=localStorage.getItem("titcuavalue").toUpperCase();
+resutitcin.value=localStorage.getItem("titcinvalue").toUpperCase();
+resutitseis.value=localStorage.getItem("titseisvalue").toUpperCase();
+resutitsie.value=localStorage.getItem("titsievalue").toUpperCase();
+resutitoch.value=localStorage.getItem("titochvalue").toUpperCase();
+resutitnue.value=localStorage.getItem("titnuevalue").toUpperCase();
+resutitdie.value=localStorage.getItem("titdievalue").toUpperCase();
+
+
+top.parent.focus();
+
+
+}
+</script>
+
+
+
+<script>
+
+   function passvaluesx ()
+    {
+
+
+
+      var titulo2=document.getElementById("tit2").value;
+      localStorage.setItem("titvalue",titulo2);
+localStorage.setItem("titvalue2",titulo2);
+var titulodos2=document.getElementById("titdos2").value;
+      localStorage.setItem("titdosvalue",titulodos2);
+localStorage.setItem("titdosvalue2",titulodos2);
+var titulotres2=document.getElementById("titres2").value;
+      localStorage.setItem("titresvalue",titulotres2);
+localStorage.setItem("titresvalue2",titulotres2);
+var titulocua2=document.getElementById("titcua2").value;
+      localStorage.setItem("titcuavalue",titulocua2);
+localStorage.setItem("titcuavalue2",titulocua2);
+var titulocin2=document.getElementById("titcin2").value;
+      localStorage.setItem("titcinvalue",titulocin2);
+localStorage.setItem("titcinvalue2",titulocin2);
+var tituloseis2=document.getElementById("titseis2").value;
+      localStorage.setItem("titseisvalue",tituloseis2);
+localStorage.setItem("titseisvalue2",tituloseis2);
+var titulosie2=document.getElementById("titsie2").value;
+      localStorage.setItem("titsievalue",titulosie2);
+localStorage.setItem("titsievalue2",titulosie2);
+var titulooch2=document.getElementById("titoch2").value;
+      localStorage.setItem("titochvalue",titulooch2);
+localStorage.setItem("titochvalue2",titulooch2);
+var titulonue2=document.getElementById("titnue2").value;
+      localStorage.setItem("titnuevalue",titulonue2);
+localStorage.setItem("titnuevalue2",titulonue2);
+var titulodie2=document.getElementById("titdie2").value;
+      localStorage.setItem("titdievalue",titulodie2);
+localStorage.setItem("titdievalue2",titulodie2);
+
+
+resutit.value=localStorage.getItem("titvalue").toUpperCase();
+resutitdos.value=localStorage.getItem("titdosvalue").toUpperCase();
+resutitres.value=localStorage.getItem("titresvalue").toUpperCase();
+resutitcua.value=localStorage.getItem("titcuavalue").toUpperCase();
+resutitcin.value=localStorage.getItem("titcinvalue").toUpperCase();
+resutitseis.value=localStorage.getItem("titseisvalue").toUpperCase();
+resutitsie.value=localStorage.getItem("titsievalue").toUpperCase();
+resutitoch.value=localStorage.getItem("titochvalue").toUpperCase();
+resutitnue.value=localStorage.getItem("titnuevalue").toUpperCase();
+resutitdie.value=localStorage.getItem("titdievalue").toUpperCase();
+
+
+top.parent.focus();
+
+
+}
+</script>
+
+<script>
+
+   function passvaluesxx ()
+    {
+
+
+
+      var titulo3=document.getElementById("tit3").value;
+      localStorage.setItem("titvalue",titulo3);
+localStorage.setItem("titvalue3",titulo3);
+      
+
+var titulodos3=document.getElementById("titdos3").value;
+      localStorage.setItem("titdosvalue",titulodos3);
+localStorage.setItem("titdosvalue3",titulodos3);
+var titulotres3=document.getElementById("titres3").value;
+      localStorage.setItem("titresvalue",titulotres3);
+localStorage.setItem("titresvalue3",titulotres3);
+var titulocua3=document.getElementById("titcua3").value;
+      localStorage.setItem("titcuavalue",titulocua3);
+localStorage.setItem("titcuavalue3",titulocua3);
+var titulocin3=document.getElementById("titcin3").value;
+      localStorage.setItem("titcinvalue",titulocin3);
+localStorage.setItem("titcinvalue3",titulocin3);
+var tituloseis3=document.getElementById("titseis3").value;
+      localStorage.setItem("titseisvalue",tituloseis3);
+localStorage.setItem("titseisvalue3",tituloseis3);
+var titulosie3=document.getElementById("titsie3").value;
+      localStorage.setItem("titsievalue",titulosie3);
+localStorage.setItem("titsievalue3",titulosie3);
+var titulooch3=document.getElementById("titoch3").value;
+      localStorage.setItem("titochvalue",titulooch3);
+localStorage.setItem("titochvalue3",titulooch3);
+var titulonue3=document.getElementById("titnue3").value;
+      localStorage.setItem("titnuevalue",titulonue3);
+localStorage.setItem("titnuevalue3",titulonue3);
+var titulodie3=document.getElementById("titdie3").value;
+      localStorage.setItem("titdievalue",titulodie3);
+localStorage.setItem("titdievalue3",titulodie3);
+
+
+resutit.value=localStorage.getItem("titvalue").toUpperCase();
+resutitdos.value=localStorage.getItem("titdosvalue").toUpperCase();
+resutitres.value=localStorage.getItem("titresvalue").toUpperCase();
+resutitcua.value=localStorage.getItem("titcuavalue").toUpperCase();
+resutitcin.value=localStorage.getItem("titcinvalue").toUpperCase();
+resutitseis.value=localStorage.getItem("titseisvalue").toUpperCase();
+resutitsie.value=localStorage.getItem("titsievalue").toUpperCase();
+resutitoch.value=localStorage.getItem("titochvalue").toUpperCase();
+resutitnue.value=localStorage.getItem("titnuevalue").toUpperCase();
+resutitdie.value=localStorage.getItem("titdievalue").toUpperCase();
+
+
+top.parent.focus();
+
+
+}
+</script>
+
+
+
+
+<script>
+function myFunction(e) {
+   if((e && e.keyCode == 13) || e == 0) {
+     
+     passvalues();
+   }
+}
+</script>
+
+
+<script>
+function myFunctionx(e) {
+   if((e && e.keyCode == 13) || e == 0) {
+     
+     passvaluesx();
+   }
+}
+</script>
+
+
+<script>
+function myFunctionxx(e) {
+   if((e && e.keyCode == 13) || e == 0) {
+     
+     passvaluesxx();
+   }
+}
+</script>
+
+
+
+</head>
+<body onLoad="leervalues()">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="position:absolute; top:0px; left:0px;" onKeyPress="return myFunction(event)"  >
+
+<input type="text" style="WIDTH: 500px; HEIGHT: 74px; font-family: Verdana; font-size: 37pt; border: 2px; text-align: left; font-weight:bold; background-color: #CCCCCC; color: #333333";  id="tit" autocomplete="off"; Value="gol de "; maxlength="26"; />
+
+
+<br>
+<input type="text" style="WIDTH: 500px; HEIGHT: 74px; font-family: Verdana; font-size: 37pt; border: 2px; text-align: left; font-weight:bold; background-color: #CCCCCC; color: #333333";  id="titdos" autocomplete="off"; value="cambio en "; maxlength="26"; />
+
+<br>
+<input type="text" style="WIDTH: 500px; HEIGHT: 74px; font-family: Verdana; font-size: 37pt; border: 2px; text-align: left; font-weight:bold; background-color: #CCCCCC; color: #333333";  id="titres" autocomplete="off"; value="sale "; maxlength="26"; />
+
+<br>
+
+
+<input type="text" style="WIDTH: 500px; HEIGHT: 74px; font-family: Verdana; font-size: 37pt; border: 2px; text-align: left; font-weight:bold; background-color: #CCCCCC; color: #333333";  id="titcua" autocomplete="off"; value="entra "; maxlength="26"; />
+
+
+<br>
+<input type="text" style="WIDTH: 500px; HEIGHT: 74px; font-family: Verdana; font-size: 37pt; border: 2px; text-align: left; font-weight:bold; background-color: #CCCCCC; color: #333333";  id="titcin" autocomplete="off"; value="sale "; maxlength="26"; />
+
+<br>
+<input type="text" style="WIDTH: 500px; HEIGHT: 74px; font-family: Verdana; font-size: 37pt; border: 2px; text-align: left; font-weight:bold; background-color: #CCCCCC; color: #333333";  id="titseis" autocomplete="off"; value="entra "; maxlength="26"; />
+
+<br>
+<input type="text" style="WIDTH: 500px; HEIGHT: 74px; font-family: Verdana; font-size: 37pt; border: 2px; text-align: left; font-weight:bold; background-color: #CCCCCC; color: #333333";  id="titsie" autocomplete="off"; value="amonestado "; maxlength="26"; />
+
+
+<br>
+<input type="text" style="WIDTH: 500px; HEIGHT: 74px; font-family: Verdana; font-size: 37pt; border: 2px; text-align: left; font-weight:bold; background-color: #CCCCCC; color: #333333";  id="titoch" autocomplete="off"; value="expulsado "; maxlength="26"; />
+
+<br>
+<input type="text" style="WIDTH: 500px; HEIGHT: 74px; font-family: Verdana; font-size: 37pt; border: 2px; text-align: left; font-weight:bold; background-color: #CCCCCC; color: #333333";  id="titnue" autocomplete="off"; value="penal para "; maxlength="26"; />
+
+<br>
+
+
+<input type="text" style="WIDTH: 500px; HEIGHT: 74px; font-family: Verdana; font-size: 37pt; border: 2px; text-align: left; font-weight:bold; background-color: #CCCCCC; color: #333333";  id="titdie" autocomplete="off"; value="patea "; maxlength="26"; />
+
+<br><br>
+
+</div>
+
+
+
+<div style="position:absolute; top:0px; left:500px;">
+
+<input type="text" style="WIDTH: 900px; HEIGHT: 74px; font-family: Eurostile, Verdana; font-size: 37pt; border: 0px; text-align: center;  font-weight:bold; background-color: #000000; color: #FFFFFF";  id="resutit" ; readonly="true" /><font size="37px" color="white" face="Verdana"><b>1</b></font><br>
+
+<input type="text" style="WIDTH: 900px; HEIGHT: 74px; font-family: Eurostile, Verdana; font-size: 37pt; border: 0px; text-align: center;  font-weight:bold; background-color: #000000; color: #FFFFFF";  id="resutitdos" ; readonly="true" /><font size="37px" color="white" face="Verdana"><b>2</b></font><br>
+
+<input type="text" style="WIDTH: 900px; HEIGHT: 74px; font-family: Eurostile, Verdana; font-size: 37pt; border: 0px; text-align: center; font-weight:bold; background-color: #000000; color: #FFFFFF";  id="resutitres" ; readonly="true"; /><font size="37px" color="white" face="Verdana"><b>3</b></font><br>
+
+<input type="text" style="WIDTH: 900px; HEIGHT: 74px; font-family: Eurostile, Verdana; font-size: 37pt; border: 0px; text-align: center;  font-weight:bold; background-color: #000000; color: #FFFFFF";  id="resutitcua" ; readonly="true" /><font size="37px" color="white" face="Verdana"><b>4</b></font><br>
+
+<input type="text" style="WIDTH: 900px; HEIGHT: 74px; font-family: Eurostile, Verdana; font-size: 37pt; border: 0px; text-align: center; font-weight:bold; background-color: #000000; color: #FFFFFF";  id="resutitcin" ; readonly="true" /><font size="37px" color="white" face="Verdana"><b>5</b></font><br>
+
+<input type="text" style="WIDTH: 900px; HEIGHT: 74px; font-family: Eurostile, Verdana; font-size: 37pt; border: 0px; text-align: center;  font-weight:bold; background-color: #000000; color: #FFFFFF";  id="resutitseis" ; readonly="true" /><font size="37px" color="white" face="Verdana"><b>6</b></font><br>
+
+<input type="text" style="WIDTH: 900px; HEIGHT: 74px; font-family: Eurostile, Verdana; font-size: 37pt; border: 0px; text-align: center;  font-weight:bold; background-color: #000000; color: #FFFFFF";  id="resutitsie" ; readonly="true" /><font size="37px" color="white" face="Verdana"><b>7</b></font><br>
+
+<input type="text" style="WIDTH: 900px; HEIGHT: 74px; font-family: Eurostile, Verdana; font-size: 37pt; border: 0px; text-align: center;  font-weight:bold; background-color: #000000; color: #FFFFFF";  id="resutitoch" ; readonly="true" /><font size="37px" color="white" face="Verdana"><b>8</b></font><br>
+
+<input type="text" style="WIDTH: 900px; HEIGHT: 74px; font-family: Eurostile, Verdana; font-size: 37pt; border: 0px; text-align: center;  font-weight:bold; background-color: #000000; color: #FFFFFF";  id="resutitnue" ; readonly="true" /><font size="37px" color="white" face="Verdana"><b>9</b></font><br>
+
+<input type="text" style="WIDTH: 900px; HEIGHT: 74px; font-family: Eurostile, Verdana; font-size: 37pt; border: 0px; text-align: center;  font-weight:bold; background-color: #000000; color: #FFFFFF";  id="resutitdie" ; readonly="true";/><font size="37px" color="white" face="Verdana"><b>0</b></font><br>
+
+</div>
+
+
+
+<div style="position:absolute; top:0px; left:1440px;" onKeyPress="return myFunctionx(event)">
+
+<input type="text" style="WIDTH: 600px; HEIGHT: 74px; font-family: Verdana; font-size: 37pt; border: 2px; text-align: left; font-weight:bold; background-color: #CCCCCC; color: #333333";  id="tit2" autocomplete="off"; maxlength="26"; />
+
+<br>
+<input type="text" style="WIDTH: 600px; HEIGHT: 74px; font-family: Verdana; font-size: 37pt; border: 2px; text-align: left; font-weight:bold; background-color: #CCCCCC; color: #333333";  id="titdos2" autocomplete="off"; maxlength="26"; />
+
+<br>
+<input type="text" style="WIDTH: 600px; HEIGHT: 74px; font-family: Verdana; font-size: 37pt; border: 2px; text-align: left; font-weight:bold; background-color: #CCCCCC; color: #333333";  id="titres2" autocomplete="off"; maxlength="26"; />
+
+<br>
+
+
+<input type="text" style="WIDTH: 600px; HEIGHT: 74px; font-family: Verdana; font-size: 37pt; border: 2px; text-align: left; font-weight:bold; background-color: #CCCCCC; color: #333333";  id="titcua2" autocomplete="off"; maxlength="26"; />
+
+
+<br>
+<input type="text" style="WIDTH: 600px; HEIGHT: 74px; font-family: Verdana; font-size: 37pt; border: 2px; text-align: left; font-weight:bold; background-color: #CCCCCC; color: #333333";  id="titcin2" autocomplete="off"; maxlength="26"; />
+
+<br>
+<input type="text" style="WIDTH: 600px; HEIGHT: 74px; font-family: Verdana; font-size: 37pt; border: 2px; text-align: left; font-weight:bold; background-color: #CCCCCC; color: #333333";  id="titseis2" autocomplete="off"; maxlength="26"; />
+
+<br>
+<input type="text" style="WIDTH: 600px; HEIGHT: 74px; font-family: Verdana; font-size: 37pt; border: 2px; text-align: left; font-weight:bold; background-color: #CCCCCC; color: #333333";  id="titsie2" autocomplete="off"; maxlength="26"; />
+
+
+<br>
+<input type="text" style="WIDTH: 600px; HEIGHT: 74px; font-family: Verdana; font-size: 37pt; border: 2px; text-align: left; font-weight:bold; background-color: #CCCCCC; color: #333333";  id="titoch2" autocomplete="off"; maxlength="26"; />
+
+<br>
+<input type="text" style="WIDTH: 600px; HEIGHT: 74px; font-family: Verdana; font-size: 37pt; border: 2px; text-align: left; font-weight:bold; background-color: #CCCCCC; color: #333333";  id="titnue2" autocomplete="off"; maxlength="26"; />
+
+<br>
+
+
+<input type="text" style="WIDTH: 600px; HEIGHT: 74px; font-family: Verdana; font-size: 37pt; border: 2px; text-align: left; font-weight:bold; background-color: #CCCCCC; color: #333333";  id="titdie2" autocomplete="off"; maxlength="26"; />
+
+
+<br>
+</div>
+
+<div style="position:absolute; top:0px; left:2060px;" onKeyPress="return myFunctionxx(event)">
+
+<input type="text" style="WIDTH: 600px; HEIGHT: 74px; font-family: Verdana; font-size: 37pt; border: 2px; text-align: left; font-weight:bold; background-color: #CCCCCC; color: #333333";  id="tit3" autocomplete="off"; maxlength="26"; />
+
+<br>
+<input type="text" style="WIDTH: 600px; HEIGHT: 74px; font-family: Verdana; font-size: 37pt; border: 2px; text-align: left; font-weight:bold; background-color: #CCCCCC; color: #333333";  id="titdos3" autocomplete="off"; maxlength="26"; />
+
+<br>
+<input type="text" style="WIDTH: 600px; HEIGHT: 74px; font-family: Verdana; font-size: 37pt; border: 2px; text-align: left; font-weight:bold; background-color: #CCCCCC; color: #333333";  id="titres3" autocomplete="off"; maxlength="26"; />
+
+<br>
+
+
+<input type="text" style="WIDTH: 600px; HEIGHT: 74px; font-family: Verdana; font-size: 37pt; border: 2px; text-align: left; font-weight:bold; background-color: #CCCCCC; color: #333333";  id="titcua3" autocomplete="off"; maxlength="26"; />
+
+
+<br>
+<input type="text" style="WIDTH: 600px; HEIGHT: 74px; font-family: Verdana; font-size: 37pt; border: 2px; text-align: left; font-weight:bold; background-color: #CCCCCC; color: #333333";  id="titcin3" autocomplete="off"; maxlength="26"; />
+
+<br>
+<input type="text" style="WIDTH: 600px; HEIGHT: 74px; font-family: Verdana; font-size: 37pt; border: 2px; text-align: left; font-weight:bold; background-color: #CCCCCC; color: #333333";  id="titseis3" autocomplete="off"; maxlength="26"; />
+
+<br>
+<input type="text" style="WIDTH: 600px; HEIGHT: 74px; font-family: Verdana; font-size: 37pt; border: 2px; text-align: left; font-weight:bold; background-color: #CCCCCC; color: #333333";  id="titsie3" autocomplete="off"; maxlength="26"; />
+
+
+<br>
+<input type="text" style="WIDTH: 600px; HEIGHT: 74px; font-family: Verdana; font-size: 37pt; border: 2px; text-align: left; font-weight:bold; background-color: #CCCCCC; color: #333333";  id="titoch3" autocomplete="off"; maxlength="26"; />
+
+<br>
+<input type="text" style="WIDTH: 600px; HEIGHT: 74px; font-family: Verdana; font-size: 37pt; border: 2px; text-align: left; font-weight:bold; background-color: #CCCCCC; color: #333333";  id="titnue3" autocomplete="off"; maxlength="26"; />
+
+<br>
+
+
+<input type="text" style="WIDTH: 600px; HEIGHT: 74px; font-family: Verdana; font-size: 37pt; border: 2px; text-align: left; font-weight:bold; background-color: #CCCCCC; color: #333333";  id="titdie3" autocomplete="off"; maxlength="26"; />
+
+
+<br>
+</div>
+
+
+<div style="position:absolute; top:0px; left:2700px;" >
+<a href="formaciones.html"><input type="submit" class="button" value="🢂" /></a>
+</div>
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+
